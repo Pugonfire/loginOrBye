@@ -2,7 +2,7 @@
 Shuts down Linux system if there are none of the specified users are logged in (physically or via ssh) after a certain time from start up
 
 ### Background
-- SSH Server PC automatically starts upon power loss
+- SSH Server PC automatically starts upon power recovery or AC power supplied
 - To save power, I ensure that it power offs if I am not logged in physically or via SSH after 3 minutes
 - If I ever need to use it again, I can power it on using Wake on LAN via WAN, and log in within 3 minutes
 - From a security standpoint, I would think it makes it more secure as the system will shutdown in 3 minutes if:
